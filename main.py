@@ -1,6 +1,29 @@
-def main():
-    print("Hello from 100daysofpython-day18!")
+from turtle import Turtle, Screen
+
+turtle = Turtle()
+turtle.shape("turtle")
+turtle.color("green")
+turtle.forward(100)
 
 
-if __name__ == "__main__":
-    main()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+screen = Screen()
+screen.exitonclick()
